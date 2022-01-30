@@ -12,7 +12,7 @@ class TrafficLight:
                          'yellow': Image.open('pic/yellow.jpg').resize((450, 600)),
                          'green': Image.open('pic/green.jpg').resize((450, 600)),
                          'red + yellow': Image.open('pic/red + yellow.jpg').resize((450, 600)),
-                         'off': Image.open('pic/tl_off1.jpg').resize((450, 600))}
+                         'off': Image.open('pic/tl_off.jpg').resize((450, 600))}
         self.iterator = cycle(self.working_algorithm)
         self.cur_state = next(self.iterator)
 
